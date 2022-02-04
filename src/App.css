@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  padding: 0px 10px;
+  font-size: 20px
+}
+
+.products {
+  display: flex;
+  grid-template-columns: auto;
+  flex-wrap: wrap;
+  grid-column-gap: 50px ;
+  grid-row-gap: 50px ;
+  justify-content: center;
+}
+.product {
+  border: solid 1px #333;
+  padding: 10px;
+}
+
+.product img {
+  height: 300px;
+  width: 300px;
+}
+
+.search {
+  font-size: 20px !important;
+}
+
+.allSearch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.blockSearch {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 40px;
+}
+
+.mySales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-column-gap: 50px ;
+  border: 2px solid black;
+  align-items: flex-start;
+  margin: 0 20px;
+}
+
+.propertyProduct {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.propertyText {
+  width: 120px;
+}
+
+.myProductsMain {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-column-gap: 20px ;
+}
+
+.propertyProductButton {
+  margin: 10px auto;
+}
+
+.myAllProduct {
+  margin: 0 -20px;
+  height: 100%;
+  width: 100%;
+  border: 2px solid green;
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header-title {
+  border-radius: 20px;
+  padding: 12px 23px;
+  margin-left: 10px;
+  color: #fff;
+  background-color: #409eff;
+  border-color: #409eff;
+  text-decoration: none;
+}
